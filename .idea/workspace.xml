@@ -4,23 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3ddd301-e1e8-451f-b05e-253adea003b5" name="更改" comment="环境搭建">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSoftwareServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSoftwareServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="与前端脚手架匹配的后端">
+      <change beforePath="$PROJECT_DIR$/RobinServer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/companyBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Biz/companyBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/companyUserBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Biz/companyUserBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/superAdminBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Biz/superAdminBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/companyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Controller/companyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Controller/userController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/company.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Entity/company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/companyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Entity/companyUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/superAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Entity/superAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/companyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Mapper/companyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/companyUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Mapper/companyUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/superAdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Mapper/superAdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/RobinServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/RobinServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Util/dateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Util/dateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Util/outerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Util/outerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/companyUser_View.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/ViewEntity/companyUser_View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/superAdmin_View.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/ViewEntity/superAdmin_View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/statusTable.md" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/statusTable.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/resources/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/resources/sqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/test/java/com/Robin/RobinServer/RobinServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/test/java/com/Robin/RobinServer/RobinServerApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
 }</component>
-  <component name="ProjectId" id="2hx4GbQQJFsT8CWDTo1E4bWXMPO" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2hx6G5CrR2UVzBmgB1dKBzSvp4x" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,17 +69,64 @@
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.MineSoftwareServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RobinServerApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/asus/IdeaProjects/RobinServer/RobinServer/src/main/java/com/Robin/RobinServer&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\asus\IdeaProjects\RobinServer\RobinServer\src\main\java\com\Robin\RobinServer" />
+      <recent name="C:\Users\asus\IdeaProjects\RobinServer\RobinServer\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="MineSoftwareServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="MineSoftwareServer" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RobinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="RobinServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Robin.RobinServer.RobinServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Robin.RobinServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.RobinServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -55,23 +138,45 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="d3ddd301-e1e8-451f-b05e-253adea003b5" name="更改" comment="" />
-      <created>1718522299284</created>
+      <changelist id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="" />
+      <created>1718523282178</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1718522299284</updated>
-      <workItem from="1718522300267" duration="76000" />
-      <workItem from="1718522386460" duration="331000" />
-      <workItem from="1718522769442" duration="167000" />
-      <workItem from="1718523002170" duration="80000" />
+      <updated>1718523282178</updated>
+      <workItem from="1718523283161" duration="2711000" />
+      <workItem from="1718595478572" duration="5000" />
+      <workItem from="1718624593699" duration="1904000" />
+      <workItem from="1718626520213" duration="2723000" />
+      <workItem from="1718629461970" duration="817000" />
+      <workItem from="1718630286742" duration="2173000" />
+      <workItem from="1718688881667" duration="4738000" />
+      <workItem from="1718694471856" duration="378000" />
+      <workItem from="1718694863166" duration="2437000" />
+      <workItem from="1718718754417" duration="2486000" />
+      <workItem from="1718784156832" duration="5697000" />
+      <workItem from="1718893406853" duration="2143000" />
+      <workItem from="1718895923606" duration="1263000" />
+      <workItem from="1718898203690" duration="4469000" />
+      <workItem from="1718935329594" duration="603000" />
+      <workItem from="1718935972963" duration="3534000" />
+      <workItem from="1718941920107" duration="294000" />
+      <workItem from="1718942224640" duration="186000" />
+      <workItem from="1718942414859" duration="1851000" />
+      <workItem from="1718950580978" duration="7329000" />
+      <workItem from="1718977918375" duration="3403000" />
+      <workItem from="1718981859868" duration="442000" />
+      <workItem from="1718988151967" duration="2144000" />
+      <workItem from="1719032520679" duration="610000" />
+      <workItem from="1719036247280" duration="1702000" />
+      <workItem from="1719037990636" duration="23000" />
     </task>
-    <task id="LOCAL-00001" summary="环境搭建">
+    <task id="LOCAL-00001" summary="与前端脚手架匹配的后端">
       <option name="closed" value="true" />
-      <created>1718522553769</created>
+      <created>1719037755871</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1718522553769</updated>
+      <updated>1719037755871</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -79,19 +184,8 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="环境搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="环境搭建" />
+    <MESSAGE value="与前端脚手架匹配的后端" />
+    <option name="LAST_COMMIT_MESSAGE" value="与前端脚手架匹配的后端" />
   </component>
 </project>

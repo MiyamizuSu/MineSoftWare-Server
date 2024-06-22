@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MineSoftwareServer.iml" filepath="$PROJECT_DIR$/.idea/MineSoftwareServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RobinServer/RobinServer.iml" filepath="$PROJECT_DIR$/RobinServer/RobinServer.iml" />
     </modules>
   </component>
 </project>
