@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="与前端脚手架匹配的后端">
-      <change beforePath="$PROJECT_DIR$/RobinServer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/companyBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Biz/companyBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/companyUserBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Biz/companyUserBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/superAdminBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Biz/superAdminBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/companyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Controller/companyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Controller/userController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/company.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Entity/company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/companyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Entity/companyUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/superAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Entity/superAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/companyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Mapper/companyMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/companyUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Mapper/companyUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/superAdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Mapper/superAdminMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/RobinServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/RobinServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Util/dateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Util/dateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Util/outerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/Util/outerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/companyUser_View.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/ViewEntity/companyUser_View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/superAdmin_View.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/ViewEntity/superAdmin_View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/statusTable.md" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/java/com/Robin/RobinServer/statusTable.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/resources/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/resources/sqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/test/java/com/Robin/RobinServer/RobinServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftwareServer/src/test/java/com/Robin/RobinServer/RobinServerApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="与前端脚手架匹配的后端111" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,6 +144,8 @@
       <workItem from="1719032520679" duration="610000" />
       <workItem from="1719036247280" duration="1702000" />
       <workItem from="1719037990636" duration="23000" />
+      <workItem from="1719038092736" duration="296000" />
+      <workItem from="1719038391321" duration="518000" />
     </task>
     <task id="LOCAL-00001" summary="与前端脚手架匹配的后端">
       <option name="closed" value="true" />
@@ -178,14 +155,82 @@
       <option name="project" value="LOCAL" />
       <updated>1719037755871</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="与前端脚手架匹配的后端">
+      <option name="closed" value="true" />
+      <created>1719038149309</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038149309</updated>
+    </task>
+    <task id="LOCAL-00003" summary="与前端脚手架匹配的后端">
+      <option name="closed" value="true" />
+      <created>1719038293612</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038293612</updated>
+    </task>
+    <task id="LOCAL-00004" summary="与前端脚手架匹配的后端111">
+      <option name="closed" value="true" />
+      <created>1719038325206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038325206</updated>
+    </task>
+    <task id="LOCAL-00005" summary="与前端脚手架匹配的后端111">
+      <option name="closed" value="true" />
+      <created>1719038438334</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038438334</updated>
+    </task>
+    <task id="LOCAL-00006" summary="与前端脚手架匹配的后端111">
+      <option name="closed" value="true" />
+      <created>1719038494294</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038494294</updated>
+    </task>
+    <task id="LOCAL-00007" summary="与前端脚手架匹配的后端111">
+      <option name="closed" value="true" />
+      <created>1719038731613</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038731613</updated>
+    </task>
+    <task id="LOCAL-00008" summary="与前端脚手架匹配的后端111">
+      <option name="closed" value="true" />
+      <created>1719038748137</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038748137</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="与前端脚手架匹配的后端" />
-    <option name="LAST_COMMIT_MESSAGE" value="与前端脚手架匹配的后端" />
+    <MESSAGE value="与前端脚手架匹配的后端111" />
+    <option name="LAST_COMMIT_MESSAGE" value="与前端脚手架匹配的后端111" />
   </component>
 </project>
