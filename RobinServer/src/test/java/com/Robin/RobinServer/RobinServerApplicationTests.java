@@ -1,10 +1,10 @@
-package com.MineSoftware.MineSoftwareServer;
+package com.Robin.RobinServer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MineSoftwareServerApplicationTests {
+class RobinServerApplicationTests {
 
     @Test
     void contextLoads() {

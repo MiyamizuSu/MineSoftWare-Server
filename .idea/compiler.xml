@@ -9,5 +9,8 @@
         <module name="RobinServer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MineSoftwareServer" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
