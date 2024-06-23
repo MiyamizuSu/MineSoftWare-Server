@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="与前端脚手架匹配的后端111" />
+    <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="与前端脚手架匹配的后端111">
+      <change afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/companyBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/CompanyBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/companyUserBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/CompanyUserBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/superAdminBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/SuperAdminBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/companyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/CompanyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/company.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/companyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/CompanyUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/superAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/SuperAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/companyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/CompanyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/companyUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/CompanyUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/superAdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/SuperAdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Util/dateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Util/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Util/outerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Util/OuterApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/companyUser_View.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/CompanyUser_View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/superAdmin_View.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/SuperAdmin_View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +47,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -37,32 +62,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.RobinServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/asus/IdeaProjects/RobinServer/RobinServer/src/main/java/com/Robin/RobinServer&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.RobinServerApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/asus/IdeaProjects/RobinServer/RobinServer/src/main/java/com/Robin/RobinServer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "库",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\asus\IdeaProjects\RobinServer\RobinServer\src\main\java\com\Robin\RobinServer" />
@@ -102,14 +131,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -146,6 +167,14 @@
       <workItem from="1719037990636" duration="23000" />
       <workItem from="1719038092736" duration="296000" />
       <workItem from="1719038391321" duration="518000" />
+      <workItem from="1719064049695" duration="3591000" />
+      <workItem from="1719068213237" duration="13000" />
+      <workItem from="1719068259512" duration="12316000" />
+      <workItem from="1719113754521" duration="7915000" />
+      <workItem from="1719124602127" duration="11827000" />
+      <workItem from="1719143806143" duration="1004000" />
+      <workItem from="1719145017714" duration="324000" />
+      <workItem from="1719145550153" duration="13639000" />
     </task>
     <task id="LOCAL-00001" summary="与前端脚手架匹配的后端">
       <option name="closed" value="true" />
@@ -232,5 +261,21 @@
     <MESSAGE value="与前端脚手架匹配的后端" />
     <MESSAGE value="与前端脚手架匹配的后端111" />
     <option name="LAST_COMMIT_MESSAGE" value="与前端脚手架匹配的后端111" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/UserController.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/CompanyUserBiz.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

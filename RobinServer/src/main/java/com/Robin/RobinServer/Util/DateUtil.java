@@ -5,7 +5,7 @@ import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-public class dateUtil {
+public class DateUtil {
 
     public static Date fromStringGetDate(String timeDay)  throws Exception {
         SimpleDateFormat dateFormat = new SimpleDateFormat("M/d");

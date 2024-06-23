@@ -9,7 +9,7 @@ import darabonba.core.client.ClientOverrideConfiguration;
 
 import java.util.concurrent.CompletableFuture;
 
-public class outerApi {
+public class OuterApi {
     public static int AliCloudSms(String phoneNumber ,String accessKeyId, String accessKeySecret)  {
         try {
             StaticCredentialProvider provider = StaticCredentialProvider.create(Credential.builder()
