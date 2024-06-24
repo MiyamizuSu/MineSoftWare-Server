@@ -95,17 +95,29 @@ public class CompanyUserBiz {
 
     public String updateCompanyUser(CompanyUser_View companyUser_view, String userName_before) {
         try{
+            String userName_new = companyUser_view.getUserName();
+            if (userName_new.isEmpty()) {
+                return "303"; //修改后的用户名称为空
+            }
+            CompanyUser dbUser = mapper.selectUserByName(userName_new);
+            if (dbUser != null && !userName_new.equals(userName_before)) {
+                return "301"; //修改后的用户名与其他用户名重复
+            }
             mapper.updateCompanyUser(companyUser_view, userName_before);
             mapper.updateCompany(companyUser_view, userName_before);
             return "200";
         }
         catch (Exception e) {
             e.printStackTrace();
-            return "301";
+            return "777";
         }
     }
     public String updatePassword(String userName,String newPassword){
         try{
+            if (newPassword.isEmpty()) {
+                return "304"; //修改后的用户密码为空
+            }
+
             mapper.updatePassword(userName,SHA256.digestHex(newPassword));
             return "200";
         }
