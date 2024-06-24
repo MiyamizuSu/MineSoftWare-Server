@@ -37,7 +37,7 @@ public class UserController {
     @ResponseBody
     @RequestMapping("/login")
     public Map login( @RequestBody Map<String,String>request ,HttpServletRequest httpServletRequest) {
-        Map response = new HashMap();
+        Map<String, Object> response = new HashMap<>();
         String userCompany= request.get("userCompany");
         String userName=request.get("userName");
         String userPassword=request.get("userPassword");
@@ -97,7 +97,7 @@ public class UserController {
 
     @RequestMapping("/logout")
     public Map logout(HttpServletRequest httpServletRequest) {
-        Map response = new HashMap();
+        Map<String, Object> response = new HashMap<>();
         //清空session中存储的user对象
         httpServletRequest.getSession().setAttribute("user", null);
         response.put("statusCode", "200");
@@ -130,7 +130,7 @@ public class UserController {
     @RequestMapping("/register")
     public Map register(@RequestBody Map<String,String> request ,HttpServletRequest httpServletRequest) {
         System.out.println("处理用户注册-----");
-        Map response = new HashMap();
+        Map<String, Object> response = new HashMap<>();
         String username = request.get("userName");
         String password = request.get("userPassword");
         String companyName=request.get("companyName");
@@ -202,7 +202,7 @@ public class UserController {
     @ResponseBody
     @RequestMapping("/updateMessage")
     public Map updateMessage(@RequestBody CompanyUser updatedUser, HttpServletRequest httpServletRequest) {
-        Map response = new HashMap(); //返回的Map不用限制类型
+        Map<String, Object> response = new HashMap<>(); //返回的Map不用限制类型
         System.out.println("执行/user/updateMessage方法-----");
         System.out.println("前端传入的User："+updatedUser);
         HttpSession session = httpServletRequest.getSession();
@@ -262,11 +262,11 @@ public class UserController {
     @RequestMapping("/listAllCompanyUsers")
     public Map getAllUsers() {
         List<CompanyUser> companyUserList = companyUserBiz.getAllUserList();
-        Map map = new HashMap();
-        map.put("isOk", true);
-        map.put("companyUserList", companyUserList);
-        map.put("msg", "查询成功");
-        return map;
+        Map<String, Object> response = new HashMap<>();
+        response.put("isOk", true);
+        response.put("companyUserList", companyUserList);
+        response.put("msg", "查询成功");
+        return response;
     }
 
     @RequestMapping("/getCompanyUserByName")
@@ -300,6 +300,14 @@ public class UserController {
             map.put("msg", "查询失败，请检查公司名称");
         }
         return map;
+    }
+
+    @RequestMapping("/addCompanyUser")
+    public Map<String, Object> addCompanyUser(@RequestBody CompanyUser companyUser) {
+        Map<String, Object> response = new HashMap<>();
+        String statusCode = companyUserBiz.insertNewCompanyUser(companyUser);
+        response.put("statusCode", statusCode);
+        return response;
     }
 
 }

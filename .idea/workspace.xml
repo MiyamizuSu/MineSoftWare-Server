@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="update by xh.对后端进行了一些完善，需要更改表结构，但前端请求格式变化不大" />
+    <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="update by xh.添加了小程序的会议回执相关后端">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/UserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,6 +158,8 @@
       <workItem from="1719145017714" duration="324000" />
       <workItem from="1719145550153" duration="14897000" />
       <workItem from="1719191724155" duration="2088000" />
+      <workItem from="1719197019000" duration="3048000" />
+      <workItem from="1719219604991" duration="3252000" />
     </task>
     <task id="LOCAL-00001" summary="与前端脚手架匹配的后端">
       <option name="closed" value="true" />
@@ -244,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719195486435</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update by xh.对后端进行了一些完善，需要更改表结构，但前端请求格式变化不大">
+      <option name="closed" value="true" />
+      <created>1719196103120</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719196103120</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +278,8 @@
     <MESSAGE value="与前端脚手架匹配的后端" />
     <MESSAGE value="与前端脚手架匹配的后端111" />
     <MESSAGE value="update by xh.对后端进行了一些完善，需要更改表结构，但前端请求格式变化不大" />
-    <option name="LAST_COMMIT_MESSAGE" value="update by xh.对后端进行了一些完善，需要更改表结构，但前端请求格式变化不大" />
+    <MESSAGE value="update by xh.添加了小程序的会议回执相关后端" />
+    <option name="LAST_COMMIT_MESSAGE" value="update by xh.添加了小程序的会议回执相关后端" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
