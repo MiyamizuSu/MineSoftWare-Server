@@ -95,6 +95,15 @@ public class UserController {
         return response;
     }
 
+    @RequestMapping("/logout")
+    public Map logout(HttpServletRequest httpServletRequest) {
+        Map response = new HashMap();
+        //清空session中存储的user对象
+        httpServletRequest.getSession().setAttribute("user", null);
+        response.put("statusCode", "200");
+        return response;
+    }
+
 //    @CrossOrigin(origins = "http://localhost:5173/",allowCredentials = "true")
     @ResponseBody
     @RequestMapping("/token")
@@ -155,7 +164,10 @@ public class UserController {
     @RequestMapping("/loading") //只加载当前session中的user
     public Map Loading(HttpServletRequest httpServletRequest) {
         Map<String,Object> response = new HashMap<>();
-        if (httpServletRequest.getSession().getAttribute("user").getClass().equals(CompanyUser_View.class)){
+        if (httpServletRequest.getSession().getAttribute("user") == null) {
+            response.put("userData", null);
+        }
+        else if (httpServletRequest.getSession().getAttribute("user").getClass().equals(CompanyUser_View.class)){
             CompanyUser_View user = (CompanyUser_View) httpServletRequest.getSession().getAttribute("user");
             // 为什么还要load呢？难道登录存session的时候不存数据库中的完整数据吗？
 //            CompanyUser_View back = companyUserBiz.loadingData(user);

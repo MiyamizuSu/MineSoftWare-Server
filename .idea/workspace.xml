@@ -4,28 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="与前端脚手架匹配的后端111">
-      <change afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="update by xh.对后端进行了一些完善，需要更改表结构，但前端请求格式变化不大">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/companyBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/CompanyBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/companyUserBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/CompanyUserBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/superAdminBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/SuperAdminBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/companyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/CompanyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/company.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/companyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/CompanyUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/superAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Entity/SuperAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/companyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/CompanyMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/companyUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/CompanyUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/superAdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/SuperAdminMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Util/dateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Util/DateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Util/outerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Util/OuterApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/companyUser_View.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/CompanyUser_View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/superAdmin_View.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/SuperAdmin_View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/CompanyUserBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/CompanyUserBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/SuperAdminBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/SuperAdminBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/statusTable.md" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/statusTable.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,36 +46,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.RobinServerApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/asus/IdeaProjects/RobinServer/RobinServer/src/main/java/com/Robin/RobinServer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "库",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.RobinServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/asus/IdeaProjects/RobinServer/RobinServer/src/main/java/com/Robin/RobinServer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\asus\IdeaProjects\RobinServer\RobinServer\src\main\java\com\Robin\RobinServer" />
@@ -174,7 +158,8 @@
       <workItem from="1719124602127" duration="11827000" />
       <workItem from="1719143806143" duration="1004000" />
       <workItem from="1719145017714" duration="324000" />
-      <workItem from="1719145550153" duration="13639000" />
+      <workItem from="1719145550153" duration="14897000" />
+      <workItem from="1719191724155" duration="2088000" />
     </task>
     <task id="LOCAL-00001" summary="与前端脚手架匹配的后端">
       <option name="closed" value="true" />
@@ -240,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719038748137</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update by xh.对后端进行了一些完善，需要更改表结构，但前端请求格式变化不大">
+      <option name="closed" value="true" />
+      <created>1719159516352</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719159516352</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,14 +253,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="与前端脚手架匹配的后端" />
     <MESSAGE value="与前端脚手架匹配的后端111" />
-    <option name="LAST_COMMIT_MESSAGE" value="与前端脚手架匹配的后端111" />
+    <MESSAGE value="update by xh.对后端进行了一些完善，需要更改表结构，但前端请求格式变化不大" />
+    <option name="LAST_COMMIT_MESSAGE" value="update by xh.对后端进行了一些完善，需要更改表结构，但前端请求格式变化不大" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/UserController.java</url>
-          <line>139</line>
+          <line>148</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

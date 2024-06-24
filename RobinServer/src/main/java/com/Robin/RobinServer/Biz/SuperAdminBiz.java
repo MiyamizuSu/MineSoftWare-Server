@@ -74,6 +74,14 @@ public class SuperAdminBiz {
 
     public String updateAdmin(SuperAdmin_View adminView, String userName_before) {
         try{
+            String userName_new = adminView.getUserName();
+            if (userName_new.isEmpty()) {
+                return "303"; //修改后的用户名称为空
+            }
+            SuperAdmin dbAdmin = mapper.selectAdminByName(userName_new);
+            if (dbAdmin != null && !userName_new.equals(userName_before)) {
+                return "301"; //修改后的用户名与其他用户名重复
+            }
             mapper.updateAdmin(adminView, userName_before);
             return "200";
         }
@@ -84,6 +92,10 @@ public class SuperAdminBiz {
     }
     public String updatePassword(String userName,String newPassword){
         try{
+            if (newPassword.isEmpty()) {
+                return "304"; //修改后的用户密码为空
+            }
+
             mapper.updatePassword(userName,SHA256.digestHex(newPassword));
             return "200";
         }
