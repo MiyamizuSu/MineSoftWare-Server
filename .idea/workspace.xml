@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="update by xh.添加了小程序的会议回执相关后端">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/ConferenceReceiptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/ConferenceReceiptController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +159,10 @@
       <workItem from="1719145550153" duration="14897000" />
       <workItem from="1719191724155" duration="2088000" />
       <workItem from="1719197019000" duration="3048000" />
-      <workItem from="1719219604991" duration="3252000" />
+      <workItem from="1719219604991" duration="3508000" />
+      <workItem from="1719243334239" duration="295000" />
+      <workItem from="1719291622670" duration="7396000" />
+      <workItem from="1719313219111" duration="5979000" />
     </task>
     <task id="LOCAL-00001" summary="与前端脚手架匹配的后端">
       <option name="closed" value="true" />
@@ -257,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719196103120</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update by xh.添加了小程序的会议回执相关后端">
+      <option name="closed" value="true" />
+      <created>1719222874213</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719222874213</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
