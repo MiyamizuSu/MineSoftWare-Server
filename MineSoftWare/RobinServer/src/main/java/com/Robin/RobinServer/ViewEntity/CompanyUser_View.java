@@ -1,9 +1,7 @@
 package com.Robin.RobinServer.ViewEntity;
 
 import com.Robin.RobinServer.Entity.CompanyUser;
-import com.Robin.RobinServer.Util.DateUtil;
 
-import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 
 public class CompanyUser_View { //隐藏了密码属性
