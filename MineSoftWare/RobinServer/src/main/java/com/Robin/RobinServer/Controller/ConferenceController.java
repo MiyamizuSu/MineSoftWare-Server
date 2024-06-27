@@ -44,7 +44,6 @@ public class ConferenceController {
             response.put("conferenceList", null);
             response.put("msg", "查询失败，请检查conferenceId");
         }
-
         return response;
     }
 
