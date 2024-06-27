@@ -30,6 +30,24 @@ public class ConferenceController {
         return response;
     }
 
+    @RequestMapping("/listByCompany")
+    public Map<String, Object> listConferencesByCompanyName(@RequestBody Map<String, Object> request) {
+        Map<String, Object> response = new HashMap<>();
+        String companyName = (String) request.get("companyName");
+        List<Conference> conferenceList = conferenceBiz.getConferencesByBelongedCompany(companyName);
+        if (conferenceList != null && !conferenceList.isEmpty()) {
+            response.put("isOk", true);
+            response.put("conferenceList", conferenceList);
+            response.put("msg", "查询成功");
+        } else {
+            response.put("isOk", false);
+            response.put("conferenceList", null);
+            response.put("msg", "查询失败，请检查conferenceId");
+        }
+
+        return response;
+    }
+
     @RequestMapping("/getById")
     public Map<String, Object> getConferenceById(@RequestBody Map<String, Object> request) {
         Map<String, Object> response = new HashMap<>();

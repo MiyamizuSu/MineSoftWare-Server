@@ -20,6 +20,10 @@ public class ConferenceBiz {
         return mapper.allConferences();
     }
 
+    public List<Conference> getConferencesByBelongedCompany(String companyName) {
+        return mapper.selectConferencesByBelongedCompany(companyName);
+    }
+
     public Conference getConferenceById(int conferenceId) {
         return mapper.selectConferenceById(conferenceId);
     }

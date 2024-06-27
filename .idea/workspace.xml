@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="update by xh.添加了小程序的会议回执相关后端">
+    <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="update by xh.添加了会议管理模块相关后端，表结构与实体类一致">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/ConferenceReceiptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Controller/ConferenceReceiptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Biz/ConferenceBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Biz/ConferenceBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Controller/ConferenceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Controller/ConferenceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/Conference.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/Conference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/ConferenceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/ConferenceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +169,13 @@
       <workItem from="1719219604991" duration="3508000" />
       <workItem from="1719243334239" duration="295000" />
       <workItem from="1719291622670" duration="7396000" />
-      <workItem from="1719313219111" duration="5979000" />
+      <workItem from="1719313219111" duration="6945000" />
+      <workItem from="1719329755799" duration="10000" />
+      <workItem from="1719371196977" duration="712000" />
+      <workItem from="1719374735427" duration="107000" />
+      <workItem from="1719391194820" duration="649000" />
+      <workItem from="1719398686364" duration="4255000" />
+      <workItem from="1719450285857" duration="4649000" />
     </task>
     <task id="LOCAL-00001" summary="与前端脚手架匹配的后端">
       <option name="closed" value="true" />
@@ -268,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719222874213</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update by xh.添加了会议管理模块相关后端，表结构与实体类一致">
+      <option name="closed" value="true" />
+      <created>1719325194772</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719325194772</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +300,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -290,7 +323,8 @@
     <MESSAGE value="与前端脚手架匹配的后端111" />
     <MESSAGE value="update by xh.对后端进行了一些完善，需要更改表结构，但前端请求格式变化不大" />
     <MESSAGE value="update by xh.添加了小程序的会议回执相关后端" />
-    <option name="LAST_COMMIT_MESSAGE" value="update by xh.添加了小程序的会议回执相关后端" />
+    <MESSAGE value="update by xh.添加了会议管理模块相关后端，表结构与实体类一致" />
+    <option name="LAST_COMMIT_MESSAGE" value="update by xh.添加了会议管理模块相关后端，表结构与实体类一致" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

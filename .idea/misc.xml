@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/MineSoftWare/RobinServer/pom.xml" />
+        <option value="$PROJECT_DIR$/RobinServer/pom.xml" />
       </list>
     </option>
   </component>
