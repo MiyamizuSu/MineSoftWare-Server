@@ -136,4 +136,7 @@ public class CompanyUserBiz {
     public List<CompanyUser> getUsersByCompanyName(String companyName) {
         return mapper.selectUsersByCompany(companyName);
     }
+    public String getUserCompany(String userName){
+        return mapper.selectCompanyByUserName(userName);
+    }
 }

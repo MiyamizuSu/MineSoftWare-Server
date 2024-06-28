@@ -41,19 +41,7 @@ public class UserController {
         String userCompany= request.get("userCompany");
         String userName=request.get("userName");
         String userPassword=request.get("userPassword");
-        System.out.println("前端传入的公司名称："+userCompany);
-        System.out.println("前端传入的用户名："+userName);
-        System.out.println("前端传入的密码："+userPassword);
         if (userCompany.isEmpty()){
-//            SuperAdmin superAdmin = new SuperAdmin(userName, userPassword);
-//            response.put("statusCode", String.valueOf(superAdminBiz.superAdminLogin(userName, userPassword)));
-//            if (response.get("statusCode").equals("200")){
-//                SuperAdmin_View superAdminView=new SuperAdmin_View(superAdmin);
-//                httpServletRequest.getSession().setAttribute("user",superAdminView);
-//            }
-//            else {
-//
-//            }
             SuperAdmin dbAdmin = superAdminBiz.superAdminLogin(userName, userPassword);
             if (dbAdmin != null) {
                 SuperAdmin_View superAdminView = new SuperAdmin_View(dbAdmin);

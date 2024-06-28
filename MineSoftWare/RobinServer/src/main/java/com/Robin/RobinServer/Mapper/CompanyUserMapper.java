@@ -23,6 +23,10 @@ public interface CompanyUserMapper {
     @Select("select * from robin_companyuser where belongCompany=#{companyName}")
     List<CompanyUser> selectUsersByCompany(String companyName);
 
+    @Select("select belongCompany from robin_companyuser where userName=#{userName}")
+    String selectCompanyByUserName(String userName);
+
+
     @Delete("delete from robin_companyuser where userName=#{userName}")
     int delByName(String userName);
 
@@ -43,5 +47,6 @@ public interface CompanyUserMapper {
 
     @Update("update robin_companyuser set userPassword=#{newPassword} where userName=#{userName}")
     public int updatePassword(@Param("userName")String userName, @Param("newPassword")String newPassword);
+
 
 }
