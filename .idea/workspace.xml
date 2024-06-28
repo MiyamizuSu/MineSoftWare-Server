@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="update by xh.会议管理模块增加了所属企业字段">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2hx6G5CrR2UVzBmgB1dKBzSvp4x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.RobinServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/asus/IdeaProjects/RobinServer/RobinServer/src/main/java/com/Robin/RobinServer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\asus\IdeaProjects\RobinServer\RobinServer\src\main\java\com\Robin\RobinServer" />
+      <recent name="C:\Users\asus\IdeaProjects\RobinServer\RobinServer\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="MineSoftwareServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="MineSoftwareServer" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.RobinServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="" />
+      <created>1718523282178</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718523282178</updated>
+      <workItem from="1718523283161" duration="2711000" />
+      <workItem from="1718595478572" duration="5000" />
+      <workItem from="1718624593699" duration="1904000" />
+      <workItem from="1718626520213" duration="2723000" />
+      <workItem from="1718629461970" duration="817000" />
+      <workItem from="1718630286742" duration="2173000" />
+      <workItem from="1718688881667" duration="4738000" />
+      <workItem from="1718694471856" duration="378000" />
+      <workItem from="1718694863166" duration="2437000" />
+      <workItem from="1718718754417" duration="2486000" />
+      <workItem from="1718784156832" duration="5697000" />
+      <workItem from="1718893406853" duration="2143000" />
+      <workItem from="1718895923606" duration="1263000" />
+      <workItem from="1718898203690" duration="4469000" />
+      <workItem from="1718935329594" duration="603000" />
+      <workItem from="1718935972963" duration="3534000" />
+      <workItem from="1718941920107" duration="294000" />
+      <workItem from="1718942224640" duration="186000" />
+      <workItem from="1718942414859" duration="1851000" />
+      <workItem from="1718950580978" duration="7329000" />
+      <workItem from="1718977918375" duration="3403000" />
+      <workItem from="1718981859868" duration="442000" />
+      <workItem from="1718988151967" duration="2144000" />
+      <workItem from="1719032520679" duration="610000" />
+      <workItem from="1719036247280" duration="1702000" />
+      <workItem from="1719037990636" duration="23000" />
+      <workItem from="1719038092736" duration="296000" />
+      <workItem from="1719038391321" duration="518000" />
+      <workItem from="1719064049695" duration="3591000" />
+      <workItem from="1719068213237" duration="13000" />
+      <workItem from="1719068259512" duration="12316000" />
+      <workItem from="1719113754521" duration="7915000" />
+      <workItem from="1719124602127" duration="11827000" />
+      <workItem from="1719143806143" duration="1004000" />
+      <workItem from="1719145017714" duration="324000" />
+      <workItem from="1719145550153" duration="14897000" />
+      <workItem from="1719191724155" duration="2088000" />
+      <workItem from="1719197019000" duration="3048000" />
+      <workItem from="1719219604991" duration="3508000" />
+      <workItem from="1719243334239" duration="295000" />
+      <workItem from="1719291622670" duration="7396000" />
+      <workItem from="1719313219111" duration="6945000" />
+      <workItem from="1719329755799" duration="10000" />
+      <workItem from="1719371196977" duration="712000" />
+      <workItem from="1719374735427" duration="107000" />
+      <workItem from="1719391194820" duration="649000" />
+      <workItem from="1719398686364" duration="4255000" />
+      <workItem from="1719450285857" duration="6206000" />
+      <workItem from="1719460480533" duration="240000" />
+      <workItem from="1719500739237" duration="140000" />
+      <workItem from="1719501128088" duration="774000" />
+    </task>
+    <task id="LOCAL-00001" summary="与前端脚手架匹配的后端">
+      <option name="closed" value="true" />
+      <created>1719037755871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719037755871</updated>
+    </task>
+    <task id="LOCAL-00002" summary="与前端脚手架匹配的后端">
+      <option name="closed" value="true" />
+      <created>1719038149309</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038149309</updated>
+    </task>
+    <task id="LOCAL-00003" summary="与前端脚手架匹配的后端">
+      <option name="closed" value="true" />
+      <created>1719038293612</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038293612</updated>
+    </task>
+    <task id="LOCAL-00004" summary="与前端脚手架匹配的后端111">
+      <option name="closed" value="true" />
+      <created>1719038325206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038325206</updated>
+    </task>
+    <task id="LOCAL-00005" summary="与前端脚手架匹配的后端111">
+      <option name="closed" value="true" />
+      <created>1719038438334</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038438334</updated>
+    </task>
+    <task id="LOCAL-00006" summary="与前端脚手架匹配的后端111">
+      <option name="closed" value="true" />
+      <created>1719038494294</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038494294</updated>
+    </task>
+    <task id="LOCAL-00007" summary="与前端脚手架匹配的后端111">
+      <option name="closed" value="true" />
+      <created>1719038731613</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038731613</updated>
+    </task>
+    <task id="LOCAL-00008" summary="与前端脚手架匹配的后端111">
+      <option name="closed" value="true" />
+      <created>1719038748137</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038748137</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update by xh.对后端进行了一些完善，需要更改表结构，但前端请求格式变化不大">
+      <option name="closed" value="true" />
+      <created>1719159516352</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719159516352</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update by xh.对后端进行了一些完善，需要更改表结构，但前端请求格式变化不大">
+      <option name="closed" value="true" />
+      <created>1719195134215</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719195134215</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update by xh.对后端进行了一些完善，需要更改表结构，但前端请求格式变化不大">
+      <option name="closed" value="true" />
+      <created>1719195486435</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719195486435</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update by xh.对后端进行了一些完善，需要更改表结构，但前端请求格式变化不大">
+      <option name="closed" value="true" />
+      <created>1719196103120</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719196103120</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update by xh.添加了小程序的会议回执相关后端">
+      <option name="closed" value="true" />
+      <created>1719222874213</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719222874213</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update by xh.添加了会议管理模块相关后端，表结构与实体类一致">
+      <option name="closed" value="true" />
+      <created>1719325194772</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719325194772</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update by xh.添加了会议管理模块相关后端，表结构与实体类一致">
+      <option name="closed" value="true" />
+      <created>1719455864988</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719455864989</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update by xh.会议管理模块增加了所属企业字段">
+      <option name="closed" value="true" />
+      <created>1719455925300</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1719455925300</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="与前端脚手架匹配的后端" />
+    <MESSAGE value="与前端脚手架匹配的后端111" />
+    <MESSAGE value="update by xh.对后端进行了一些完善，需要更改表结构，但前端请求格式变化不大" />
+    <MESSAGE value="update by xh.添加了小程序的会议回执相关后端" />
+    <MESSAGE value="update by xh.添加了会议管理模块相关后端，表结构与实体类一致" />
+    <MESSAGE value="update by xh.会议管理模块增加了所属企业字段" />
+    <option name="LAST_COMMIT_MESSAGE" value="update by xh.会议管理模块增加了所属企业字段" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RobinServer/src/main/java/com/Robin/RobinServer/Biz/CompanyUserBiz.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

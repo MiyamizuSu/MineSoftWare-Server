@@ -10,12 +10,10 @@ public class Conference {
     private String beginTime;
     private String endTime;
     private String imgUrl; //会议封面url
-    //会议所属的企业，企业管理员只能管理自己所属企业下的会议；超级管理员能管理所有已有会议，但不能新增会议
-    private String belongedCompany; //所属企业不能更改
 
     public Conference() {}
 
-    public Conference(int conferenceId, String conferenceName, String creator, String state, String content, String beginTime, String endTime, String imgUrl, String belongedCompany) {
+    public Conference(int conferenceId, String conferenceName, String creator, String state, String content, String beginTime, String endTime, String imgUrl) {
         this.conferenceId = conferenceId;
         this.conferenceName = conferenceName;
         this.creator = creator;
@@ -24,7 +22,6 @@ public class Conference {
         this.beginTime = beginTime;
         this.endTime = endTime;
         this.imgUrl = imgUrl;
-        this.belongedCompany = belongedCompany;
     }
 
     @Override
@@ -38,7 +35,6 @@ public class Conference {
                 ", beginTime='" + beginTime + '\'' +
                 ", endTime='" + endTime + '\'' +
                 ", imgUrl='" + imgUrl + '\'' +
-                ", belongedCompany='" + belongedCompany + '\'' +
                 '}';
     }
 
@@ -104,13 +100,5 @@ public class Conference {
 
     public void setImgUrl(String imgUrl) {
         this.imgUrl = imgUrl;
-    }
-
-    public String getBelongedCompany() {
-        return belongedCompany;
-    }
-
-    public void setBelongedCompany(String belongedCompany) {
-        this.belongedCompany = belongedCompany;
     }
 }
