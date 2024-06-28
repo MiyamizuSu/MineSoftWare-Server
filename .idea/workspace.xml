@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="update by xh.会议管理模块增加了所属企业字段">
+    <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="完成60%">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Controller/CourseController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,11 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.RobinServerApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -304,7 +300,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master1" />
                       </list>
                     </value>
                   </entry>
@@ -323,7 +319,8 @@
     <MESSAGE value="update by xh.添加了小程序的会议回执相关后端" />
     <MESSAGE value="update by xh.添加了会议管理模块相关后端，表结构与实体类一致" />
     <MESSAGE value="update by xh.会议管理模块增加了所属企业字段" />
-    <option name="LAST_COMMIT_MESSAGE" value="update by xh.会议管理模块增加了所属企业字段" />
+    <MESSAGE value="完成60%" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成60%" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
