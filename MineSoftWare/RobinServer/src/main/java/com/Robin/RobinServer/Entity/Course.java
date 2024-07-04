@@ -16,13 +16,16 @@ public class Course {
     private String imgUrl;
 
     @ExcelIgnore
-    private String courseMedia;
+    private String courseMediaUrl;
 
     @ExcelIgnore
     private String courseCompare;
 
     @ExcelIgnore
     private String author;
+
+    @ExcelIgnore
+    private String belongCompany;
 
     public Course() {
     }
@@ -59,12 +62,12 @@ public class Course {
         this.imgUrl = imgUrl;
     }
 
-    public String getCourseMedia() {
-        return courseMedia;
+    public String getCourseMediaUrl() {
+        return courseMediaUrl;
     }
 
-    public void setCourseMedia(String courseMedia) {
-        this.courseMedia = courseMedia;
+    public void setCourseMediaUrl(String courseMediaUrl) {
+        this.courseMediaUrl = courseMediaUrl;
     }
 
     public String getCourseCompare() {
@@ -81,5 +84,13 @@ public class Course {
 
     public void setAuthor(String author) {
         this.author = author;
+    }
+
+    public String getBelongCompany() {
+        return belongCompany;
+    }
+
+    public void setBelongCompany(String belongCompany) {
+        this.belongCompany = belongCompany;
     }
 }
