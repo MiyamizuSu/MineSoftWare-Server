@@ -237,7 +237,7 @@ class ConferenceControllerTest {
         ObjectMapper objectMapper = new ObjectMapper();
         //正常的测试用例
         Map<String, Object> request1 = new HashMap<>();
-        request1.put("conferenceId", 16);
+        request1.put("conferenceId", 18);
         String jsonRequest1 = objectMapper.writeValueAsString(request1);
         System.out.println("jsonRequest1: "+jsonRequest1);
         RequestBuilder requestBuilder1 = MockMvcRequestBuilders
@@ -282,7 +282,7 @@ class ConferenceControllerTest {
         String jsonResponse1 = result1.getResponse().getContentAsString();
         System.out.println("jsonResponse1: "+jsonResponse1);
         //异常的测试用例
-        Conference conference2 = new Conference(-1, "XXX会议", "小明", "已结束", "会议内容2", "2024-06-28 14:00:00", "2024-06-29 17:00:00", "", "米哈游");
+        Conference conference2 = new Conference(-1, "XXX会议", "小明", "已结束", "会议内容2", "2024-06-28 14:00:00", "2024-06-29 17:00:00", "", "腾讯");
         String jsonRequest2 = objectMapper.writeValueAsString(conference2);
         System.out.println("异常测试用例（conferenceId为-1）: "+jsonRequest2);
         RequestBuilder requestBuilder2 = MockMvcRequestBuilders

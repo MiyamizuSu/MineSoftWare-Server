@@ -34,7 +34,7 @@ public class ConferenceController {
     @RequestMapping("/listByCompany")
     public Map<String, Object> listConferencesByCompanyName(@RequestBody Map<String, Object> request) {
         Map<String, Object> response = new HashMap<>();
-        System.out.println("/listByCompany  -----");
+//        System.out.println("/listByCompany  -----");
         String companyName = (String) request.get("companyName");
 //        System.out.println("Controller内拿到的companyName: "+companyName);
         List<Conference> conferenceList = conferenceBiz.getConferencesByBelongedCompany(companyName);
