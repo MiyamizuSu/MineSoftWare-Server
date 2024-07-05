@@ -24,7 +24,6 @@ public class ConferenceController {
     @RequestMapping("/listAll")
     public Map<String, Object> getConferenceList() {
         Map<String, Object> response = new HashMap<>();
-//        System.out.println("/listAll  -----");
         List<Conference> conferenceList = conferenceBiz.getAllConferences();
         response.put("isOk", true);
         response.put("conferenceList", conferenceList);
