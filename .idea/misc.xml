@@ -4,12 +4,13 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/MineSoftWare/RobinServer/pom.xml" />
+        <option value="$PROJECT_DIR$/MineSoftwareServer/pom.xml" />
         <option value="$PROJECT_DIR$/RobinServer/pom.xml" />
+        <option value="$PROJECT_DIR$/MineSoftWare/RobinServer/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

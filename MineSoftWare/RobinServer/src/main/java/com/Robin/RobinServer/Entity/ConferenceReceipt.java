@@ -13,11 +13,11 @@ public class ConferenceReceipt {
     private String arriveDetail;
     private String leave; //离开方式
     private String leaveDetail;
-    private String DTW; //备注
+    private String BTW; //备注
 
     public ConferenceReceipt() {}
 
-    public ConferenceReceipt(int receiptId, String companyName, String userName, String userGender, String phoneNumber, String userEmail, String roomType, String arrive, String arriveDetail, String leave, String leaveDetail, String DTW) {
+    public ConferenceReceipt(int receiptId, String companyName, String userName, String userGender, String phoneNumber, String userEmail, String roomType, String arrive, String arriveDetail, String leave, String leaveDetail, String BTW) {
         this.receiptId = receiptId;
         this.companyName = companyName;
         this.userName = userName;
@@ -29,7 +29,7 @@ public class ConferenceReceipt {
         this.arriveDetail = arriveDetail;
         this.leave = leave;
         this.leaveDetail = leaveDetail;
-        this.DTW = DTW;
+        this.BTW = BTW;
     }
 
     @Override
@@ -46,7 +46,7 @@ public class ConferenceReceipt {
                 ", arriveDetail='" + arriveDetail + '\'' +
                 ", leave='" + leave + '\'' +
                 ", leaveDetail='" + leaveDetail + '\'' +
-                ", DTW='" + DTW + '\'' +
+                ", DTW='" + BTW + '\'' +
                 '}';
     }
 
@@ -138,11 +138,11 @@ public class ConferenceReceipt {
         this.leaveDetail = leaveDetail;
     }
 
-    public String getDTW() {
-        return DTW;
+    public String getBTW() {
+        return BTW;
     }
 
-    public void setDTW(String DTW) {
-        this.DTW = DTW;
+    public void setBTW(String BTW) {
+        this.BTW = BTW;
     }
 }
