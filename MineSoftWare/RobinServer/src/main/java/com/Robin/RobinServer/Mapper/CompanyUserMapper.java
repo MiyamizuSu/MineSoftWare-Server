@@ -1,14 +1,19 @@
 package com.Robin.RobinServer.Mapper;
 
 
+import com.Robin.RobinServer.Entity.page.CompanyQuery;
 import com.Robin.RobinServer.Entity.CompanyUser;
+import com.Robin.RobinServer.ViewEntity.CompanyVo;
 import com.Robin.RobinServer.ViewEntity.CompanyUser_View;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
 @Mapper
-public interface CompanyUserMapper {
+public interface CompanyUserMapper extends BaseMapper<CompanyUser> {
     @Insert("INSERT INTO robin_companyuser values (#{userName},#{userRealName},#{userPassword},#{userPhoneNumber},#{userEmail}," +
             "#{imgUrl},#{userType},#{belongCompany},#{belongDept},#{startTime})")
     int insertCompanyUser(CompanyUser companyUser);
@@ -48,5 +53,5 @@ public interface CompanyUserMapper {
     @Update("update robin_companyuser set userPassword=#{newPassword} where userName=#{userName}")
     public int updatePassword(@Param("userName")String userName, @Param("newPassword")String newPassword);
 
-
+    IPage<CompanyVo> findAllCompany(@Param("page")Page page, @Param("pageBean")CompanyQuery pageBean);
 }

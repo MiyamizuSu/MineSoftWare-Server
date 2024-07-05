@@ -2,6 +2,7 @@ package com.Robin.RobinServer.Mapper;
 
 
 import com.Robin.RobinServer.Entity.Company;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
@@ -9,7 +10,7 @@ import org.apache.ibatis.annotations.Select;
 import java.util.List;
 
 @Mapper
-public interface CompanyMapper {
+public interface CompanyMapper extends BaseMapper<Company> {
 
     @Insert("INSERT INTO robin_company values (#{companyName}, #{connectorName}, #{imgUrl})")
     public int insertCompany(Company company);
@@ -22,4 +23,6 @@ public interface CompanyMapper {
 
     @Select("select * from robin_company where companyName=#{companyName}")
     Company selectCompanyByName(String companyName);
+
+
 }

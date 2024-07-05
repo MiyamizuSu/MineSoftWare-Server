@@ -15,6 +15,9 @@ public class CompanyUser_View { //隐藏了密码属性
     private String belongDept;
     private String startTime;
 
+    public CompanyUser_View() {
+    }
+
     public CompanyUser_View(CompanyUser cu) {
         // 这儿难道不应该把需要的属性复制完吗？
         this.userName = cu.getUserName();

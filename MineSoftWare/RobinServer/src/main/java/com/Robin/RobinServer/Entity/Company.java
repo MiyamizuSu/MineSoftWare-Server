@@ -1,8 +1,18 @@
 package com.Robin.RobinServer.Entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
+
+@Data
+@TableName(value = "robin_company")
 public class Company {
+    @TableId (value = "companyName")
     private String companyName;
+    @TableField (value = "connectorName")
     private String connectorName;
+    @TableField (value = "imgUrl")
     private String imgUrl; //企业图标url
 
     public Company() {}

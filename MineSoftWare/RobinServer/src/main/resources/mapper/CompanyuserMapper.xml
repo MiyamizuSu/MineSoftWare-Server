@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.Robin.RobinServer.Mapper.CompanyUserMapper">
+
+    <resultMap id="BaseResultMap" type="com.Robin.RobinServer.Entity.CompanyUser">
+            <id property="userName" column="userName" jdbcType="VARCHAR"/>
+            <result property="userRealName" column="userRealName" jdbcType="VARCHAR"/>
+            <result property="userPassword" column="userPassword" jdbcType="VARCHAR"/>
+            <result property="userPhoneNumber" column="userPhoneNumber" jdbcType="VARCHAR"/>
+            <result property="userEmail" column="userEmail" jdbcType="VARCHAR"/>
+            <result property="imgUrl" column="imgUrl" jdbcType="VARCHAR"/>
+            <result property="userType" column="userType" jdbcType="INTEGER"/>
+            <result property="belongCompany" column="belongCompany" jdbcType="VARCHAR"/>
+            <result property="belongDept" column="belongDept" jdbcType="VARCHAR"/>
+            <result property="startTime" column="startTime" jdbcType="TIMESTAMP"/>
+
+    </resultMap>
+
+    <resultMap id="companyMap" type="com.Robin.RobinServer.ViewEntity.CompanyVo">
+            <result property="companyName" column="companyName" jdbcType="VARCHAR"/>
+            <result property="connectorName" column="connectorName" jdbcType="VARCHAR"/>
+            <result property="imgUrl" column="imgUrl" jdbcType="VARCHAR"/>
+            <result property="userName" column="userName" jdbcType="VARCHAR"/>
+            <result property="userPhoneNumber" column="userPhoneNumber" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <select id="findAllCompany" resultMap="companyMap">
+        select ru.userName,ru.userPhoneNumber,rc.companyName,rc.connectorName,rc.imgUrl
+        from robin_companyuser ru join robin_company rc on ru.belongCompany = rc.companyName
+        <where>
+            ru.userType = 1
+            <if test="pageBean.companyName != null and pageBean.companyName != ''">
+                and rc.companyName like concat('%',#{pageBean.companyName},'%')
+            </if>
+            <if test="pageBean.connectorName != null and pageBean.connectorName != ''">
+                and rc.connectorName like concat('%',#{pageBean.connectorName},'%')
+            </if>
+            <if test="pageBean.userName != null and pageBean.userName != ''">
+                and ru.userName like concat('%',#{pageBean.userName},'%')
+            </if>
+            <if test="pageBean.userPhoneNumber != null and pageBean.userPhoneNumber != ''">
+                and ru.userPhoneNumber like concat('%',#{pageBean.userphonenumber},'%')
+            </if>
+        </where>
+
+    </select>
+
+    <sql id="Base_Column_List">
+        userName,userRealName,userPassword,
+        userPhoneNumber,userEmail,imgUrl,
+        userType,belongCompany,belongDept,
+        startTime
+    </sql>
+</mapper>

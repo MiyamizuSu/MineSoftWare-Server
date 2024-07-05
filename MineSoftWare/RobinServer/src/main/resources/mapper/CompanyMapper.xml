@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.Robin.RobinServer.Mapper.CompanyMapper">
+
+    <resultMap id="BaseResultMap" type="com.Robin.RobinServer.Entity.Company">
+            <id property="companyName" column="companyName" jdbcType="VARCHAR"/>
+            <result property="connectorName" column="connectorName" jdbcType="VARCHAR"/>
+            <result property="imgUrl" column="imgUrl" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        companyName,connectorName,imgUrl
+    </sql>
+</mapper>

@@ -6,11 +6,15 @@ import com.Robin.RobinServer.Biz.SuperAdminBiz;
 import com.Robin.RobinServer.Entity.Company;
 import com.Robin.RobinServer.Entity.CompanyUser;
 import com.Robin.RobinServer.Entity.SuperAdmin;
-import com.Robin.RobinServer.Entity.User;
+import com.Robin.RobinServer.Entity.page.UserQuery;
+import com.Robin.RobinServer.Util.Result;
 import com.Robin.RobinServer.ViewEntity.CompanyUser_View;
 import com.Robin.RobinServer.ViewEntity.SuperAdmin_View;
+import com.Robin.RobinServer.service.CompanyUserService;
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
@@ -33,7 +37,12 @@ public class UserController {
     @Autowired
     private SuperAdminBiz superAdminBiz;
 
-//    @CrossOrigin(origins = "http://localhost:5173/",allowCredentials = "true")
+
+    @Autowired
+    private CompanyUserService companyUserService;
+
+
+    //    @CrossOrigin(origins = "http://localhost:5173/",allowCredentials = "true")
     @ResponseBody
     @RequestMapping("/login")
     public Map login( @RequestBody Map<String,String>request ,HttpServletRequest httpServletRequest) {
@@ -298,4 +307,68 @@ public class UserController {
         return response;
     }
 
+    //根据条件分页查询用户信息
+    @PostMapping("/listUserInfo")
+    public Result listUserInfo(@RequestBody UserQuery pageBean) {
+        LambdaQueryWrapper<CompanyUser> wrapper = new LambdaQueryWrapper<>();
+        if (!pageBean.getCurrentUser().equals("admin")){
+            CompanyUser currentUser = companyUserBiz.getCompanyUserByName(pageBean.getCurrentUser());
+            if (currentUser.getUserType()==0){
+                return Result.error("您没有权限");
+            }
+            if (currentUser.getUserType()==1){
+                wrapper.eq(CompanyUser::getBelongCompany, currentUser.getBelongCompany());
+            }
+        }
+        if(pageBean.getUserName()!=null && !"".equals(pageBean.getUserName())){
+            wrapper.like(CompanyUser::getUserName, pageBean.getUserName());
+        }
+        if(pageBean.getUserRealName()!=null && !"".equals(pageBean.getUserRealName())){
+            wrapper.like(CompanyUser::getUserRealName, pageBean.getUserRealName());
+        }
+        if(pageBean.getUserPhoneNumber()!=null && !"".equals(pageBean.getUserPhoneNumber())){
+            wrapper.like(CompanyUser::getUserPhoneNumber, pageBean.getUserPhoneNumber());
+        }
+        if(pageBean.getBelongCompany()!=null && !"".equals(pageBean.getBelongCompany())){
+            wrapper.like(CompanyUser::getBelongCompany, pageBean.getBelongCompany());
+        }
+
+        Page<CompanyUser> page = new Page<>(pageBean.getPageNum(), pageBean.getPageSize());
+        Page<CompanyUser> pageResult = companyUserService.page(page,wrapper);
+        List<CompanyUser> userList = pageResult.getRecords();
+        Map<String, Object> resultMap = new HashMap<>();
+        resultMap.put("userList", userList);
+        resultMap.put("total", pageResult.getTotal());
+        return Result.success(resultMap);
+    }
+
+    @PostMapping("/batchDeleteUser")
+    public Result batchDeleteUser(@RequestBody List<CompanyUser> companyUsers) {
+        for (CompanyUser companyUser : companyUsers) {
+            if (companyUser.getUserType()==1){
+                return Result.error("删除操作中断，无法删除企业管理员");
+            } else if (companyUser.getUserType()==0) {
+                companyUserBiz.removeUserByName(companyUser.getUserName());
+            }
+        }
+        return Result.success("删除成功");
+    }
+
+    @PostMapping("/deleteUser")
+    public Result deleteUser(@RequestBody Map<String,String> request) {
+        //根据用户名称删除用户
+        CompanyUser companyUser = companyUserBiz.getCompanyUserByName(request.get("userName"));
+        if (companyUser.getUserType()==1){
+            return Result.error("删除操作中断，无法删除企业管理员");
+        } else if (companyUser.getUserType()==0) {
+            companyUserBiz.removeUserByName(companyUser.getUserName());
+        }
+        return Result.success("删除成功");
+    }
+
+    @PostMapping("/updateUser")
+    public Result updateUser(@RequestBody CompanyUser companyUser) {
+        companyUserService.update(companyUser,new QueryWrapper<CompanyUser>().eq("userName",companyUser.getUserName()));
+        return Result.success("更新成功");
+    }
 }

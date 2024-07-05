@@ -5,9 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="完成60%">
+      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/page/CompanyQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/page/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/page/UserQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Util/HttpStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Util/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/CompanyVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/config/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/service/CompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/service/CompanyUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/service/impl/CompanyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/service/impl/CompanyUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/resources/mapper/CompanyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/resources/mapper/CompanyuserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Biz/CompanyBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Biz/CompanyBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Controller/CompanyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/CompanyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/CompanyUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/CompanyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/CompanyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/CompanyUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/CompanyUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/RobinServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/RobinServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/CompanyUser_View.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/CompanyUser_View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +47,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -32,6 +61,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -39,24 +76,31 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2hx6G5CrR2UVzBmgB1dKBzSvp4x" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.RobinServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/asus/IdeaProjects/RobinServer/RobinServer/src/main/java/com/Robin/RobinServer&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CeMengHui/cemenghui_base&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -65,7 +109,8 @@
     &quot;project.structure.last.edited&quot;: &quot;库&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4f6c61e41020afbadb0ef5a2be48b60d&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -76,11 +121,102 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CeMengHui_base\MineSoftWare\RobinServer\src\main\java\com\Robin\RobinServer\Util" />
       <recent name="C:\Users\asus\IdeaProjects\RobinServer\RobinServer\src\main\java\com\Robin\RobinServer" />
       <recent name="C:\Users\asus\IdeaProjects\RobinServer\RobinServer\src\main\resources" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.Robin.RobinServer.Controller" />
+      <recent name="com.Robin.RobinServer.service" />
+      <recent name="com.Robin.RobinServer.Mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Robin.RobinServer.config" />
+      <recent name="com.Robin.RobinServer.Entity" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration name="CompanyControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RobinServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Robin.RobinServer.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Robin.RobinServer.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.Robin.RobinServer.Controller.CompanyControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RobinServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Robin.RobinServer.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Robin.RobinServer.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.Robin.RobinServer.Controller.UserControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.batchDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RobinServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Robin.RobinServer.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Robin.RobinServer.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.Robin.RobinServer.Controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="batchDeleteUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.deleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RobinServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Robin.RobinServer.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Robin.RobinServer.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.Robin.RobinServer.Controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="deleteUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.testListUserInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RobinServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Robin.RobinServer.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Robin.RobinServer.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.Robin.RobinServer.Controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="testListUserInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="MineSoftwareServer" />
       <method v="2">
@@ -94,6 +230,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CompanyControllerTest" />
+        <item itemvalue="JUnit.UserControllerTest.testListUserInfo" />
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.UserControllerTest.deleteUser" />
+        <item itemvalue="JUnit.UserControllerTest.batchDeleteUser" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -154,6 +299,25 @@
       <workItem from="1719460480533" duration="240000" />
       <workItem from="1719500739237" duration="140000" />
       <workItem from="1719501128088" duration="774000" />
+      <workItem from="1719651166611" duration="7000" />
+      <workItem from="1719651177919" duration="1697000" />
+      <workItem from="1719654430689" duration="16075000" />
+      <workItem from="1719712035404" duration="7876000" />
+      <workItem from="1719727373747" duration="11653000" />
+      <workItem from="1719794524794" duration="16790000" />
+      <workItem from="1719831303410" duration="69000" />
+      <workItem from="1719833639522" duration="13949000" />
+      <workItem from="1719880917828" duration="11129000" />
+      <workItem from="1719893843744" duration="1999000" />
+      <workItem from="1719900171602" duration="8337000" />
+      <workItem from="1719931751070" duration="1331000" />
+      <workItem from="1719969709170" duration="11728000" />
+      <workItem from="1719997472445" duration="1240000" />
+      <workItem from="1720073503053" duration="10955000" />
+      <workItem from="1720097245397" duration="8703000" />
+      <workItem from="1720113240850" duration="1045000" />
+      <workItem from="1720141749210" duration="5824000" />
+      <workItem from="1720159843757" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="与前端脚手架匹配的后端">
       <option name="closed" value="true" />
@@ -313,6 +477,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="与前端脚手架匹配的后端" />
     <MESSAGE value="与前端脚手架匹配的后端111" />
     <MESSAGE value="update by xh.对后端进行了一些完善，需要更改表结构，但前端请求格式变化不大" />
