@@ -5,37 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38fe8728-93a6-4aa9-b3b5-7cefa414e9dd" name="更改" comment="完成60%">
-      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/page/CompanyQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/page/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/page/UserQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Util/HttpStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Util/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/CompanyVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/config/MyBatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/config/MyMetaObjectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/service/CompanyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/service/CompanyUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/service/impl/CompanyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/service/impl/CompanyUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/resources/mapper/CompanyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/resources/mapper/CompanyuserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Biz/CompanyBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Biz/CompanyBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Controller/CompanyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/CompanyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Entity/CompanyUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/CompanyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/CompanyMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/CompanyUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/Mapper/CompanyUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/RobinServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/RobinServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/CompanyUser_View.java" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/java/com/Robin/RobinServer/ViewEntity/CompanyUser_View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MineSoftWare/RobinServer/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +108,7 @@
       <recent name="com.Robin.RobinServer.Entity" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CompanyControllerTest">
     <configuration name="CompanyControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RobinServer" />
       <extension name="coverage">
@@ -317,7 +287,8 @@
       <workItem from="1720097245397" duration="8703000" />
       <workItem from="1720113240850" duration="1045000" />
       <workItem from="1720141749210" duration="5824000" />
-      <workItem from="1720159843757" duration="664000" />
+      <workItem from="1720159843757" duration="1629000" />
+      <workItem from="1720162157369" duration="1208000" />
     </task>
     <task id="LOCAL-00001" summary="与前端脚手架匹配的后端">
       <option name="closed" value="true" />
@@ -447,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719455925300</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="完成60%">
+      <created>1720161487394</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1720161487394</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +442,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master1" />
+                        <option value="主线任务" />
                       </list>
                     </value>
                   </entry>
